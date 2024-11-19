@@ -55,6 +55,26 @@ section
     background-color: coral;
 }
 
+#Items
+{
+    width: 960px;
+    height: 500px;
+    margin: 0 0 10px 0;
+    padding: 10px;
+    float: right;
+    background-color: rgb(91, 148, 0);
+}
+
+#Buttons
+{
+    width: 960px;
+    height: 100px;
+    margin: 0 0 10px 0;
+    padding: 10px;
+    float: right;
+    background-color: coral;
+}
+
 footer
 {
     padding: 10px;
@@ -76,4 +96,9 @@ h2
 h6
 {
     text-align: center;
+}
+
+#Buttons input
+{
+    margin: 10px 0px 5px 25px;
 }
