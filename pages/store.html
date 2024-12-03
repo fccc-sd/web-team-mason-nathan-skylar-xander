@@ -3,13 +3,54 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="css/bootstrap.min.css">
-        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="../css/bootstrap.min.css">
+        <link rel="stylesheet" href="../css/style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Tilt+Warp&display=swap" rel="stylesheet">
         
-        <title>Stage Fright</title>
+        <title>Stage Fright Store</title>
     </head>
     <body>
-        <script src="js/bootstrap.bundle.js"></script>
+
+      <h1 class="text-danger">Tops</h1>
+      <div id="topsCarousel" class="carousel slide carousel-fade">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#topsCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#topsCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#topsCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active c-item">
+              <img src="../images/blank-1886013_640.png" class="d-block mx-auto w-50 c-image" alt="...">
+              <div class="carousel-caption d-none d-md-block">
+                <p class="text-primary">Scream Team Shirt</p>
+              </div>
+            </div>
+            <div class="carousel-item c-item">
+              <img src="../images/blank-1886013_640.png" class="d-block mx-auto w-50 c-image" alt="...">
+              <div class="carousel-caption d-none d-md-block">
+                <p class="text-primary">Scream Team Sweater</p>
+              </div>
+            </div>
+            <div class="carousel-item c-item">
+              <img src="../images/blank-1886013_640.png" class="d-block mx-auto w-50 c-image" alt="...">
+              <div class="carousel-caption d-none d-md-block">
+                <p class="text-primary">Scream Team Hoodie</p>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#topsCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#topsCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+          
+        <script src="../js/bootstrap.bundle.js"></script>
     </body>
 </html>
 
