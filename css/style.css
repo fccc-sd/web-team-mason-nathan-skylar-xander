@@ -3,7 +3,13 @@ h1
     text-align: center;
 }
 
-#topsCarousel
+#topsCarousel,
+#hatsCarousel,
+#otherCarousel,
+#albumCarousel,
+#ticketCarousel,
+#posterCarousel
 {
-    margin-top: 15px;
+    text-align: center;
+    width: 420px;
 }
