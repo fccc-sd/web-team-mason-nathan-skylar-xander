@@ -30,3 +30,10 @@ body
     background-image: url("../images/main-bg.jpg");
     background-size: cover;
 }
+
+.store
+{
+    display: flex;
+	justify-content: center;
+	width: 100% !important;
+}
