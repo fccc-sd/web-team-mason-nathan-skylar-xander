@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="../css/bootstrap.min.css">
+        <link rel="stylesheet" href="../css/style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Tilt+Warp&display=swap" rel="stylesheet">
+        
+        <title>Stage Fright Cart</title>
+    </head>
+
+    <body>
+
+        <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark" style="padding-top: 1em; padding-bottom: 1em;">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img src="../images/stage fright.png" alt="logo" width="70" height="70">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-auto navbar-main">
+                        <li class="nav-item">
+                            <a class="nav-link" href="../index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="music.html">Music</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="store.html">Store</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="tour.html">Tour</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart" viewBox="0 0 16 16">
+                                <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5M3.102 4l1.313 7h8.17l1.313-7zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4m7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4m-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2m7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2"/>
+                                </svg>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <div class="container-fluid head-container" style="padding: 50px; min-width: 100%;">
+            <h1>Checkout</h1>
+        </div>
+
+        <div class="container-fluid  mt-100">
+            <div class="row">
+               <div class="col-md-12">
+                   <div class="card">
+                        <div class="card-header">
+                        <h5>Cart</h5>
+                        </div>
+                        <div class="card-body cart">
+                            <div class="col-sm-12 empty-cart-cls text-center">
+                                <h3><strong>Your Cart is Empty</strong></h3>
+                            </div>
+                        </div>
+                   </div>
+                </div>
+           
+
+                <form>
+                    <div class="form-group f-input">
+                    <label for="inputEmail">Email address:</label>
+                    <input type="email" class="form-control" id="inputEmail" aria-describedby="emailHelp" placeholder="Enter email" required>
+                    </div>
+                    <div class="form-group f-input">
+                    <label for="inputNumber">Phone Number:</label>
+                    <input type="tel" class="form-control" id="inputNumber" placeholder="Phone Number" required>
+                    </div>
+                    <div class="form-group f-input">
+                    <label for="inputShipping">Address:</label>
+                    <input type="text" class="form-control" id="inputNumber" placeholder="Shipping Address" required>
+                    </div>
+                    <button type="submit" class="btn btn-primary f-button">Place Order</button>
+                </form>
+            </div>
+        </div>
+
+    </body>
+
+</html>
