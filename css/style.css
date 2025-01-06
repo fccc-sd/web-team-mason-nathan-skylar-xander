@@ -66,3 +66,7 @@ body
 .GBNF-img{
     max-width: 500px;
 }
+
+.GBNF-text{
+    text-align: center;
+}
