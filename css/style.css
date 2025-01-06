@@ -25,6 +25,11 @@ body
     font-size: 1.5em !important;
 }
 
+.navbar{
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
 .head-container
 {
     background-image: url("../images/main-bg.jpg");
@@ -57,16 +62,36 @@ body
 
 .title-container{
     background-image: url("../images/main-bg.jpg");
+    padding: 0%;
+    min-width: 100%;
 }
 
 .logo-img{
     max-width: 700px;
+    padding: 3em;
 }
 
 .GBNF-img{
     max-width: 500px;
+    padding: 3em;
 }
 
 .GBNF-text{
     text-align: center;
+}
+
+.GBNF-button{
+    display: block;
+    margin: auto;
+    width: 10em;
+    margin-top: 2em;
+}
+
+.album-container{
+    padding: 0%;
+    min-width: 100%;
+}
+
+.rows{
+    min-width: 100%;
 }
