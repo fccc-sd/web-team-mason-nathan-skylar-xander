@@ -87,11 +87,23 @@ body
     margin-top: 2em;
 }
 
-.album-container{
-    padding: 0%;
+.new-music-container{
     min-width: 100%;
+    margin: 0;
+    padding: 0;
+
+}
+
+.GBNF-container{
+    min-width: 100%;
+    margin: 0;
+    padding: 0;
+    background-image: url(../images/GBNF-bg.png);
+    background-size: 100vw;
 }
 
 .rows{
     min-width: 100%;
+    margin: 0%;
+    padding: 0%;
 }
