@@ -62,7 +62,7 @@ body
 
 .sub-menu:hover .store-menu 
 {
-    display: inline-block;
+    display: block;
 }
 
 .title-container{
