@@ -18,6 +18,7 @@ h1
 body
 {
     padding-top: 112px;
+    background-color: rgb(19, 21, 27);
 }
 
 .navbar-main
@@ -120,5 +121,10 @@ body
     margin: 0;
     padding: 0;
     background-image: none;
+    flex-direction: column;
+}
+
+.tour-container
+{
     flex-direction: column;
 }
