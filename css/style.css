@@ -123,3 +123,7 @@ h5 strong
 {
     margin-bottom: 10px;
 }
+
+.card-container{
+    padding: 0;
+}
