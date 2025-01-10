@@ -168,3 +168,8 @@ h5 strong
 {
     font-size: 1.25em;
 }
+
+.booking-body
+{
+    padding-top: 0;
+}
