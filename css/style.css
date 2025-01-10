@@ -152,3 +152,8 @@ h5 strong
 {
     flex-direction: column;
 }
+
+.booking-body
+{
+    padding-top: 0;
+}
