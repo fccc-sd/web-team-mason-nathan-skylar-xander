@@ -18,7 +18,7 @@ h1
 body
 {
     padding-top: 112px;
-    background-color: rgb(19, 21, 27);
+    background-color: rgb(19,21,27);
 }
 
 .navbar-main
@@ -116,20 +116,6 @@ body
     padding: 0%;
 }
 
-h5 strong
-{
-    font-size: 3em;
-}
-
-.musicCards
-{
-    margin-bottom: 10px;
-}
-
-.card-container{
-    padding: 0;
-}
-
 .store-container{
     min-width: 100%;
     margin: 0;
@@ -138,8 +124,7 @@ h5 strong
     flex-direction: column;
 }
 
-.tour-container
-{
+.tour-container{
     min-width: 100%;
     margin: 0;
     padding: 0;
@@ -151,4 +136,35 @@ h5 strong
 .tour-container2
 {
     flex-direction: column;
+}
+
+.about-container{
+    flex-direction: column;
+}
+
+.carousel-control-prev,
+.carousel-control-next{
+    background-color: transparent;
+    border: 0;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon{
+  height: 100px;
+  width: 100px;
+  color: rgb(68, 68, 68);;
+  background-size: 100%, 100%;
+  background-image: none;
+}
+
+.carousel-control-next-icon:after{
+  content: '>';
+  font-size: 45px;
+  color: rgb(68, 68, 68);
+}
+
+.carousel-control-prev-icon:after{
+  content: '<';
+  font-size: 55px;
+  color: rgb(68, 68, 68);
 }
