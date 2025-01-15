@@ -1,0 +1,219 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+h1
+{
+    text-align: center;
+}
+
+#storeCarousel
+{
+    text-align: center;
+    width: 420px;
+}
+
+body
+{
+    padding-top: 112px;
+    background-color: rgb(19,21,27);
+}
+
+.navbar-main
+{
+    font-size: 1.5em !important;
+}
+
+.navbar{
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+.head-container
+{
+    background-image: url("../images/main-bg.jpg");
+    background-size: cover;
+}
+
+.store
+{
+    display: flex;
+	justify-content: center;
+	width: 100% !important;
+}
+
+.store-button
+{
+    display: block;
+    margin: auto;
+    width: 10em;
+}
+
+.f-input,
+.f-button
+{
+    margin-left: 20px;
+}
+
+.navbar-toggler-icon{
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 0.5%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+.sub-menu:hover .store-menu 
+{
+    display: block;
+}
+
+.title-container{
+    background-image: url("../images/main-bg.jpg");
+    padding: 0%;
+    min-width: 100%;
+}
+
+.logo-img{
+    max-width: 700px;
+    padding: 3em;
+}
+
+.GBNF-img{
+    max-width: 500px;
+    padding: 3em;
+}
+
+.GBNF-text{
+    text-align: center;
+}
+
+.GBNF-button{
+    display: block;
+    margin: auto;
+    width: 10em;
+    margin-top: 2em;
+}
+
+.new-music-container{
+    min-width: 100%;
+    margin: 0;
+    padding: 0;
+
+}
+
+.GBNF-container{
+    min-width: 100%;
+    margin: 0;
+    padding: 0;
+    background-image: url(../images/GBNF-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    flex-direction: column;
+}
+
+.rows{
+    min-width: 100%;
+    margin: 0%;
+    padding: 0%;
+}
+
+.store-container{
+    min-width: 100%;
+    margin: 0;
+    padding: 0;
+    background-image: none;
+    flex-direction: column;
+}
+
+.tour-container{
+    min-width: 100%;
+    margin: 0;
+    padding: 0;
+    background-image: url("../images/concert.png");
+    background-size: cover;
+    flex-direction: column;
+}
+
+.tour-container2
+{
+    flex-direction: column;
+}
+
+.about-container{
+    flex-direction: column;
+}
+
+.carousel-control-prev,
+.carousel-control-next{
+    background-color: transparent;
+    border: 0;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon{
+  height: 100px;
+  width: 100px;
+  color: rgb(68, 68, 68);;
+  background-size: 100%, 100%;
+  background-image: none;
+}
+
+.carousel-control-next-icon:after{
+  content: '>';
+  font-size: 45px;
+  color: rgb(68, 68, 68);
+}
+
+.carousel-control-prev-icon:after{
+  content: '<';
+  font-size: 55px;
+  color: rgb(68, 68, 68);
+}
+.card-header, .card-footer
+{
+    font-size: 2em;
+}
+
+.albumEmphasis
+{
+    text-decoration: underline;
+}
+
+.card-text
+{
+    font-size: 1.25em;
+}
+
+footer
+{
+    text-align: center;
+}
+
+footer h3
+{
+    text-decoration: underline;
+    font-size: 2em;
+}
+
+.flex-container 
+{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.flex-container img
+{
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.flex-container-2
+{
+    text-align: center;
+}
+
+.service
+{
+    margin-top: 10px;
+    display: flex;
+}

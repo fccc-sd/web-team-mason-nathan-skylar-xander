@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="The checkout page where items ordered are visible">
+        <link rel="stylesheet" href="../css/bootstrap.min.css">
+        <link rel="stylesheet" href="../css/style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Tilt+Warp&display=swap" rel="stylesheet">
+        
+        <title>Stage Fright Booking</title>
+    </head>
+
+    <body>
+
+        <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark" style="padding-top: 1em; padding-bottom: 1em;">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="../index.html">
+                    <img src="../images/stage_fright.png" alt="logo" width="70" height="70">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-auto navbar-main">
+                        <li class="nav-item">
+                            <a class="nav-link" href="../index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="music.html">Music</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="tour.html">Tour</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" aria-current="page" href="#" role="button" data-bs-toggle="dropdown" data-bs-auto-close="false" aria-expanded="false">
+                              Store
+                            </a>
+                            <ul class="dropdown-menu store-menu">
+                              <li class="nav-item">
+                                <a class="nav-link" href="store.html">Storefront</a>
+                              </li>
+                              <li class="sub-menu">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false">
+                                  Collections
+                                </a>
+                                <ul class="dropdown-menu store-menu">
+                                  <li><a class="dropdown-item" href="Store_Subpages/Collections_Pages/col2.html">On a Ledge</a></li>
+                                  <li><a class="dropdown-item" href="Store_Subpages/Collections_Pages/col4.html">Painted Face</a></li>
+                                  <li><a class="dropdown-item" href="Store_Subpages/Collections_Pages/col6.html">Gone But Not<br>Forgotten</a></li>
+                                </ul>
+                              </li>
+                              <li class="sub-menu">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false">
+                                  Categories
+                                </a>
+                                <ul class="dropdown-menu store-menu">
+                                  <li><a class="dropdown-item" href="Store_Subpages/Categories_Pages/tops.html">Tops</a></li>
+                                  <li><a class="dropdown-item" href="Store_Subpages/Categories_Pages/hats.html">Hats</a></li>
+                                  <li><a class="dropdown-item" href="Store_Subpages/Categories_Pages/albums.html">Albums</a></li>
+                                </ul>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link" href="Store_Subpages/all.html">All</a>
+                              </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="checkout.html">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart" viewBox="0 0 16 16">
+                            <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5M3.102 4l1.313 7h8.17l1.313-7zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4m7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4m-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2m7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2"/>
+                            </svg>
+                          </a>
+                      </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <div class="container-fluid head-container" style="padding: 50px; min-width: 100%;">
+            <h1>Ticket Booking Form</h1>
+        </div>
+
+        <br>
+
+        <div class="container-fluid  mt-100">
+            <div class="row">
+
+                <form>
+                    <div class="form-group f-input">
+                    <label for="inputFName">First Name:</label>
+                    <input type="text" class="form-control" id="inputFName" placeholder="First Name" required>
+                    </div>
+                    <div class="form-group f-input">
+                    <label for="inputLName">Last Name:</label>
+                    <input type="text" class="form-control" id="inputLName" placeholder="Last Name" required>
+                    </div>
+                    <div class="form-group f-input">
+                    <label for="inputEmail">Email address:</label>
+                    <input type="email" class="form-control" id="inputEmail" placeholder="Enter email" required>
+                    </div>
+                    <div class="form-group f-input">
+                    <label for="inputNumber">Phone Number:</label>
+                    <input type="tel" class="form-control" id="inputNumber" placeholder="Phone Number" required>
+                    </div>
+                    <div class="form-group f-input">
+                    <p>Show Location:</p>
+                    <input type="radio" id="phoenix" name="location" value="Phoenix, Arizona">
+                    <label for="phoenix">Phoenix, Arizona</label><br>
+                    <input type="radio" id="detroit" name="location" value="Detroit, Michigan">
+                    <label for="detroit">Detroit, Michigan</label><br>
+                    <input type="radio" id="dallas" name="location" value="Dallas, Texas">
+                    <label for="dallas">Dallas, Texas</label><br>
+                    <input type="radio" id="nashville" name="location" value="Nashville, Tennessee">
+                    <label for="nashville">Nashville, Tennessee</label><br>
+                    <input type="radio" id="seattle" name="location" value="Seattle">
+                    <label for="seattle">Seattle, Washington</label><br>
+                    <input type="radio" id="charleston" name="location" value="Charleston">
+                    <label for="charleston">Charleston, North Carolina</label>
+                    </div>
+                    <div class="form-group f-input">
+                    <p>Seating:</p>
+                    <input type="radio" id="1st" name="row" value="1st Row">
+                    <label for="1st">1st Row</label><br>
+                    <input type="radio" id="2nd" name="row" value="2nd Row">
+                    <label for="2nd">2nd Row</label><br>
+                    <input type="radio" id="3rd" name="row" value="3rd Row">
+                    <label for="3rd">3rd Row</label><br>
+                    <input type="radio" id="4th" name="row" value="4th Row">
+                    <label for="4th">4th Row</label><br>
+                    <input type="radio" id="5th" name="row" value="5th Row">
+                    <label for="5th">5th Row</label><br>
+                    <input type="radio" id="6th" name="row" value="6th Row">
+                    <label for="6th">6th Row</label>
+                    </div>
+                    <div class="form-group f-input">
+                    <label for="inputAmount">Amount of Tickets:</label>
+                    <input type="text" class="form-control" id="inputAmount" placeholder="Ticket Amount" required>
+                    </div>
+                    <button type="submit" class="btn btn-primary f-button">Submit</button>
+                    <button type="reset" class="btn btn-danger f-button">Reset</button>
+                </form>
+
+            </div>
+        </div>
+
+        <script src="../js/bootstrap.bundle.js"></script>
+    </body>
+
+</html>
